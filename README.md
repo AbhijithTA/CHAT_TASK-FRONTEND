@@ -1,5 +1,4 @@
 
-
 ## 💬 Chat App – Frontend
 
 This is the frontend of a real-time chat application built using **React**, **Redux Toolkit**, **Tailwind CSS**, and **Socket.IO**.
@@ -31,7 +30,7 @@ This is the frontend of a real-time chat application built using **React**, **Re
 1. **Clone the repository**
 
 ```bash
-https://github.com/AbhijithTA/CHAT_TASK-FRONTEND
+git clone https://github.com/AbhijithTA/CHAT_TASK-FRONTEND
 cd chat-frontend
 ```
 
@@ -53,13 +52,37 @@ VITE_SOCKET_URL=http://localhost:7777
 npm run dev
 ```
 
+---
+
+### 👥 Test User Credentials
+
+Use the following users to log in and test chat functionality:
+
+* **User 1**
+  Email: `chat@test.com`
+  Password: `chat123`
+
+* **User 2**
+  Email: `chat2@test.com`
+  Password: `chat123`
 
 ---
+
+### 🌐 Live Preview
+
+👉 [https://chat-task-frontend.vercel.app/](https://chat-task-frontend.vercel.app/)
+
+---
+> **⚠️ Note:** The backend is hosted on **Render (Free Tier)**. It may take a few seconds to respond initially due to server cold starts.
 
 ### 🧠 Notes
 
 * Ensure the backend server is running at `http://localhost:7777`
 * Messages update in real-time using Socket.IO
 * Update the `.env` if backend URL changes
+
+---
+
+
 
 
